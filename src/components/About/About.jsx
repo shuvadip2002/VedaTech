@@ -1,7 +1,9 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import profile_img from '../../assets/shuvadip.jpg'
+import soumyadip from '../../assets/soumyadip.jpg'
+
 
 const About = () => {
   return (
@@ -19,8 +21,8 @@ const About = () => {
 
         </div>
         <div className="about-Soumyadip">
-            <img src={profile_img} alt="" />
-            <h1>Shuvadip Ghosh</h1>
+            <img src={soumyadip} alt="" />
+            <h1>Soumyadip Ghosh</h1>
             <h3>CO-FOUNDER | ENTREPRENOUR |CREATOR</h3>
             <p>With a focus on user experience, our UI/UX design services deliver intuitive and seamless interfaces for web and mobile platforms. For product-based businesses, we provide 2D and 3D product packaging design, crafting packaging that is not only functional but also visually compelling.</p>
 
