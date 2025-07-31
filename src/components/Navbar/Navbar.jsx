@@ -21,7 +21,7 @@ const[menu,setMenu] = useState("home");
       </ul>
       
       <ul className="nav-menu">
-        <li><AnchorLink className='anchor-link' ofset={50} href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt=''/>:<></>}</li> 
+        <li><AnchorLink className='anchor-link' ofset={50} href='#hero'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt=''/>:<></>}</li> 
         <li><AnchorLink className='anchor-link' ofset={50} href='#services'><p onClick={()=>setMenu("services")}>Services</p></AnchorLink>{menu==="services"?<img src={underline} alt=''/>:<></>}</li> 
         <li><AnchorLink className='anchor-link' ofset={50} href='#work'><p onClick={()=>setMenu("work")}>Projects</p></AnchorLink>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
 
