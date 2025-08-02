@@ -96,7 +96,7 @@
     transition: 0.5s;
 }
 
-.about-sections img{
+/* .about-sections img{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,6 +108,7 @@
     padding: 0;
     font-size: 50px;
     font-weight: 600;
+    
 }
 .about-sections h3{
     padding: 0;
@@ -118,4 +119,64 @@
     padding: 0;
     font-size: 12px;
     font-weight: 400;
+} */
+.about-shuvadip,
+.about-Soumyadip {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.about-shuvadip,
+.about-Soumyadip {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+}
+
+.about-shuvadip img,
+.about-Soumyadip img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.about-shuvadip h1,
+.about-Soumyadip h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.about-shuvadip h3,
+.about-Soumyadip h3 {
+    font-size: 16px;
+    color: #f3f0f0;
+    margin-bottom: 10px;
+}
+
+.about-shuvadip p,
+.about-Soumyadip p {
+    font-size: 15px;
+    color: #b3b1b1;
+    font-weight: 500;
+    line-height: 1.7;
+    max-width: 600px;
+    font-style:normal;
+    
+    
+}
+
+
+/* Optional: add some spacing inside the content next to image */
+.about-shuvadip > div,
+.about-Soumyadip > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

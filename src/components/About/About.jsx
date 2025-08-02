@@ -14,17 +14,24 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-shuvadip">
-            <img src={profile_img} alt="" />
-            <h1>Shuvadip Ghosh</h1>
-            <h3>CO-FOUNDER | ENTREPRENOUR |CREATOR</h3>
-            <p>With a focus on user experience, our UI/UX design services deliver intuitive and seamless interfaces for web and mobile platforms. For product-based businesses, we provide 2D and 3D product packaging design, crafting packaging that is not only functional but also visually compelling.</p>
+  <img src={profile_img} alt="Shuvadip" />
+  <div>
+    <h1>Shuvadip Ghosh</h1>
+    <h3>CO-FOUNDER | FULL STACK DEVELOPER | CREATOR</h3>
+<p>
+  Shuvadip is a passionate full stack developer and visual designer with a strong eye for detail and a drive for innovation. With every line of code and every pixel he places, he brings ideas to life through clean, modern, and intuitive digital experiences. His expertise spans responsive web design, UI/UX architecture, and branding strategy — all tailored to create lasting impact and user satisfaction. Driven by curiosity and creativity, he believes in designing not just for aesthetics but for meaning, usability, and connection.
+</p>  </div>
+</div>
 
-        </div>
-        <div className="about-Soumyadip">
-            <img src={soumyadip} alt="" />
-            <h1>Soumyadip Ghosh</h1>
-            <h3>CO-FOUNDER | ENTREPRENOUR |CREATOR</h3>
-            <p>With a focus on user experience, our UI/UX design services deliver intuitive and seamless interfaces for web and mobile platforms. For product-based businesses, we provide 2D and 3D product packaging design, crafting packaging that is not only functional but also visually compelling.</p>
+<div className="about-Soumyadip">
+  <img src={soumyadip} alt="Soumyadip" />
+  <div>
+    <h1>Soumyadip Ghosh</h1>
+    <h3>CO-FOUNDER | CREATIVE HEAD | CONTENT CREATOR</h3>
+  <p>
+  Soumyadip leads the creative direction and content strategy with a visionary mindset and a deep understanding of storytelling. From cinematic edits to high-impact visuals, his work transforms raw ideas into engaging narratives that resonate across digital platforms. With a talent for turning concepts into captivating content — whether it's short-form Reels, brand documentaries, or product showcases — he brings unmatched energy, aesthetic sense, and clarity to every project. His ability to blend emotion with design makes him the creative heartbeat behind our brand’s storytelling.
+</p>
+  </div>
 
 
             {/* <div className="about-para">
@@ -40,13 +47,13 @@ const About = () => {
             </div> */}
 
         </div>
-        <div className="about-shuvadip">
+        {/* <div className="about-shuvadip">
             <img src={profile_img} alt="" />
             <h1>Shuvadip Ghosh</h1>
             <h3>CO-FOUNDER | ENTREPRENOUR |CREATOR</h3>
             <p>With a focus on user experience, our UI/UX design services deliver intuitive and seamless interfaces for web and mobile platforms. For product-based businesses, we provide 2D and 3D product packaging design, crafting packaging that is not only functional but also visually compelling.</p>
 
-        </div>
+        </div> */}
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
